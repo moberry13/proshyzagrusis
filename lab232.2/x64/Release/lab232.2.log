@@ -3,19 +3,12 @@ C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\main.cpp(42,54): warning C4474: "pr
       C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\main.cpp(42,54):
       заполнители и их параметры ожидают переменное число аргументов в количестве 0, но было предоставлено 1
   
-C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\main.cpp(76,67): error C2065: i: необъявленный идентификатор
-C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\main.cpp(76,46): warning C4473: "snprintf": передано недостаточно аргументов для строки формата
-      C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\main.cpp(76,46):
-      заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
-      C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\main.cpp(76,46):
-      отсутствующий вариативный аргумент "2" требуется для строки форматирования "%d"
-  
-C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\main.cpp(83,24): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "int"
-C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\main.cpp(83,24): warning C4313: printf: конфликт "%s" в строке формата с аргументом 1 типа "int"
-C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\main.cpp(93,9): error C2660: CartochnoePole: функция не принимает 4 аргументов
+C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\main.cpp(82,24): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "int"
+C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\main.cpp(82,24): warning C4313: printf: конфликт "%s" в строке формата с аргументом 1 типа "int"
+C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\main.cpp(92,9): error C2660: CartochnoePole: функция не принимает 4 аргументов
       C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\memo.h(30,6):
        см. объявление "CartochnoePole"
-      C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\main.cpp(93,9):
+      C:\Users\annbe\Desktop\lab\lab232.2\lab232.2\main.cpp(92,9):
       при попытке сопоставить список аргументов "(Card [30], int, const int, const int)"
   
   memo.cpp

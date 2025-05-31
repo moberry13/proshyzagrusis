@@ -66,15 +66,14 @@ int main(int argc, char* argv[]) {
         int timeLeft = timeLimit; 
 
         char filename[100];
+
         const char* folder = NULL;
         switch (cardCol) {
-        case 6: folder = "card_6/";break;
+        case 6: folder = "card_6";break;
         case 12: folder = "card_12"; break;
         case 20: folder = "card_20"; break;
         case 30: folder = "card_30"; break;
         }
-        snprintf(filename, sizeof(filename), "%s/%d.jpg", folder, i + 1);
-
         for (int i = 0; i < cardCol / 2; ++i) {
            
             snprintf(filename, sizeof(filename), "%d.jpg", i + 1);
