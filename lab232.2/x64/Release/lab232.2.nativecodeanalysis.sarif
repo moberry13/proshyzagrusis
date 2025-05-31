@@ -1,0 +1,493 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Ball::rect\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/lab232.2/lab232.2.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/annbe/Desktop/lab/lab232.2/lab232.2/lab232.2.cpp"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Ball::{ctor}",
+                  "decoratedName": "??0Ball@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Ball::rect"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.42.34433.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/lab232.2/lab232.2.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0f316e6cfe49ac436d00823e191c38995b038a73a667acbcf10a395b0afad1b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl.h"
+          },
+          "hashes": {
+            "sha-256": "952e89e1dc4e0dd1a7bea6a153df632b8cdb6e433a9b3b0702c5ffe15b9b9360"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_main.h"
+          },
+          "hashes": {
+            "sha-256": "622ffcd0e7fe0c755a987c5eb9dad6b3672774026b8250b66ad3c40d3a4dda9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_stdinc.h"
+          },
+          "hashes": {
+            "sha-256": "3e86c3b44908892b55809101915b30e65706676f026d9c60e8a38d5f7c69ba02"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_config.h"
+          },
+          "hashes": {
+            "sha-256": "58fae866960dd4b2591ef3b0ae516fcca7cb6c9dcd9cd16c2c47f767b6c88dd7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_platform.h"
+          },
+          "hashes": {
+            "sha-256": "9ce62823791d7a16b9ad17ad11f4de8dcbcde7918f67bf6d1dd4fc625b69e50c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/begin_code.h"
+          },
+          "hashes": {
+            "sha-256": "9803dab29fb4522ce3500ab789260e9622df6307ce90f92ad20c1808e19c4e7b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/close_code.h"
+          },
+          "hashes": {
+            "sha-256": "4599e9cedba7451ff07a6306f0b7531beed05b1c5a65b1a2613d1b771be43fda"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_config_windows.h"
+          },
+          "hashes": {
+            "sha-256": "71b3e9c5e56f0e2f4f70fb65210676bf6a757adddc40dda7181f199aa4be7b31"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_assert.h"
+          },
+          "hashes": {
+            "sha-256": "db0d41caea4c8ddd56b6938eb4264c20a683d40674e4ad6565f51dac79b51088"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_atomic.h"
+          },
+          "hashes": {
+            "sha-256": "c561ce8f94de18ccb4f708bda45880ba6d3c9f052e166beb5dadc5544f35221e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_audio.h"
+          },
+          "hashes": {
+            "sha-256": "047afc29591ac43a90f06169f67ee7d99a6256c6bbe5efe5de79a52565bb6853"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_error.h"
+          },
+          "hashes": {
+            "sha-256": "0931656a5825e5f1f319f2cd3f573fc527393bb02fa7a1ed3f7fae6c790328be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_endian.h"
+          },
+          "hashes": {
+            "sha-256": "7907cb3ab7b8d7bc99274f5aef5294bef215b01ea49d97226cbe6e911de557d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_mutex.h"
+          },
+          "hashes": {
+            "sha-256": "c5ef9a8aeb056422ef878672770e1f60ae965933693df6d8ebd53d0e514a1794"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_thread.h"
+          },
+          "hashes": {
+            "sha-256": "0e546047dd407ca0e1d2d686cf2650ac77a987047184e3645f6ba2ec958ddc5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_rwops.h"
+          },
+          "hashes": {
+            "sha-256": "10da91c08e96e5fca452e06e11029908a6f237356e4db11af1ad13ffa2e57a47"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_clipboard.h"
+          },
+          "hashes": {
+            "sha-256": "3e8c73fb9b3ca5a544b70b66b683b78db53e1a187e066912a068c0ed7bb3e8ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_cpuinfo.h"
+          },
+          "hashes": {
+            "sha-256": "53718d214a96caa34831182adc67916bc9706a17438927d2a29621404b3e91d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_events.h"
+          },
+          "hashes": {
+            "sha-256": "ceb7bc717342e652e2c432fd1dd08a5508575cea6bd8615fb4ddea63c071ddc4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_video.h"
+          },
+          "hashes": {
+            "sha-256": "82ab63ff37834cd4bfcee490b8e37fb892bbb0b31a1a7913ec13c329271ca5ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_pixels.h"
+          },
+          "hashes": {
+            "sha-256": "fee61aee337a3823e832f5c26b3000315d6eb95da91ba20d4fb0b5bac9d4967a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_rect.h"
+          },
+          "hashes": {
+            "sha-256": "01db368d4b7736e2358cd29eec0d187d964cfd6182cffab57a938adf73b6a418"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_surface.h"
+          },
+          "hashes": {
+            "sha-256": "65a6218547c924eab7a10bb0ae3ac8181e203ce81cd0a2da3aa24b309f97814b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_blendmode.h"
+          },
+          "hashes": {
+            "sha-256": "1985f81b886d9bc681821af4f23d28e6e51bf51f21e5ef28ccc13bc8c7cdfbae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_keyboard.h"
+          },
+          "hashes": {
+            "sha-256": "98b3c717ab10e7c51cab7b2a4582080c2c50ccac54c7b7aa69709e7cb2c76aec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_keycode.h"
+          },
+          "hashes": {
+            "sha-256": "291c769a05bc3e1ead011db3e07cb52415e1aa306f484904d203e94cbb3186cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_scancode.h"
+          },
+          "hashes": {
+            "sha-256": "eb14f3cedde58358f6456d185f473d7551e8234de260151ad0319861ff1444c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_mouse.h"
+          },
+          "hashes": {
+            "sha-256": "66b5353387d011a54b232931e86121cb5551e251b9491b9ed15afe293d5856ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_joystick.h"
+          },
+          "hashes": {
+            "sha-256": "a39fc5da97edc94eabff8616a413cf850efb35d1daf437a8cc16caa837766482"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_guid.h"
+          },
+          "hashes": {
+            "sha-256": "da8fef1d047b31e55d1b167de301a806481b6948e7c2497779fd71934c45d5db"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_gamecontroller.h"
+          },
+          "hashes": {
+            "sha-256": "c77c1d8287ee441843b9d8be87b71252bdb1ce76b7bfc4fcff46889ad8e9cfec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_sensor.h"
+          },
+          "hashes": {
+            "sha-256": "f4dabf5bae217fa6370d8af73abdcbba99aea626f35e17a381b636afe01bb81b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_quit.h"
+          },
+          "hashes": {
+            "sha-256": "9c902abaea7560f98fc546bd35a04629a205d047df5433fc30b0c1d81af58b21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_gesture.h"
+          },
+          "hashes": {
+            "sha-256": "a5a8f8bb8efb26860faa9694189aaf76df1cdb7755ccd30a8599b46b237a5d82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_touch.h"
+          },
+          "hashes": {
+            "sha-256": "4e5d7a083bbf5237daf5ccf06faed3fae81b1caa693e27841ebf4ec9bf8ff769"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_filesystem.h"
+          },
+          "hashes": {
+            "sha-256": "dcfaa010c73150e7b0d56f50f5adb3fc2e35621091a55bc5436b2fb85fe71675"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_haptic.h"
+          },
+          "hashes": {
+            "sha-256": "4267b6f039bea7ad0f5cb37c37d63d0704af84f73a36d2680684ff302f49f153"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_hidapi.h"
+          },
+          "hashes": {
+            "sha-256": "489a83d1073e528f82e821c23c515af8b5a59357ec5ab132c854bb588648f59f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_hints.h"
+          },
+          "hashes": {
+            "sha-256": "96c1056e0734f019b1dafed5129d4a9d36253559ed8c7577a23c188bb75a48c1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_loadso.h"
+          },
+          "hashes": {
+            "sha-256": "8d3653b7b774b406a289519c74ae695eb5b52d71060712a88fce4c72d82b1bd3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_log.h"
+          },
+          "hashes": {
+            "sha-256": "3342cb31280c2dbf0e5809b03e5499f0cf5edf193efa5e3c5b17814526a92033"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_messagebox.h"
+          },
+          "hashes": {
+            "sha-256": "65df549cab0a515145ae55325c447159ae1d60171331a7508eac06034d25c972"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_metal.h"
+          },
+          "hashes": {
+            "sha-256": "1f3d0251522b735b0e37677eb1a0594440599fbbb2af86bbb508606cca001a06"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_power.h"
+          },
+          "hashes": {
+            "sha-256": "fbbdf3ff13b21095623edfc5659c1b76c6dbb1364a4dd14d8f9e5cf329048784"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_render.h"
+          },
+          "hashes": {
+            "sha-256": "a0cf0db1a13d0dd0d8bfdc01ffb371e2b19be36326f85058200ac9481876c7f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_shape.h"
+          },
+          "hashes": {
+            "sha-256": "cbdcdd8ead6d61a7bfa09bc4c538cc598919d1c060d70524c0828d3af7418667"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_system.h"
+          },
+          "hashes": {
+            "sha-256": "ffc5f3662a85f795c0b2e2b87b9fbf493bceeda4aacf7721a68225c5e318ca67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_timer.h"
+          },
+          "hashes": {
+            "sha-256": "d0497ad3d75701613a227134d63fdcbc62ed72f645153d52753e386ee4b498c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_version.h"
+          },
+          "hashes": {
+            "sha-256": "0a2835e6331aba4903312e161d42822dd895b2ffbb27dcb9ffa65baf930c9644"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_locale.h"
+          },
+          "hashes": {
+            "sha-256": "c4a663ce8ea4ca22f961796cae644a04fc521fa2d0681333f7da8a581909560c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2.nuget.2.32.4/build/native/include/sdl_misc.h"
+          },
+          "hashes": {
+            "sha-256": "5d5e4b42481a5ef44ec9d66159e88426be5632262731a3c3b223277771d30006"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2_image.nuget.2.8.8/build/native/include/sdl_image.h"
+          },
+          "hashes": {
+            "sha-256": "9e864e900579058f69bf83940723a333fc87f638aad93e2c4ce8549fff46c11b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/annbe/desktop/lab/lab232.2/packages/sdl2_mixer.nuget.2.8.1/build/native/include/sdl_mixer.h"
+          },
+          "hashes": {
+            "sha-256": "eefab9cf63472f03b93095bfa6bbd55bd203571155510a09d88e58410bc6436f"
+          }
+        }
+      ]
+    }
+  ]
+}
